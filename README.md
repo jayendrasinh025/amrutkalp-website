@@ -36,20 +36,21 @@ npm run build
 
 ---
 
-## 📦 How to Upload to Your GitHub Account
+## 🌐 Free Live Hosting on GitHub Pages
 
-Because this AI environment cannot access your private GitHub credentials, you can push this repository to your GitHub in 3 steps:
+This repository is pre-configured for GitHub Pages:
 
-### Option A: Push directly from your machine
+### Method 1: Automatic GitHub Actions (Recommended)
+1. In your GitHub repository, go to **Settings** > **Pages**.
+2. Under **Build and deployment** > **Source**, select **GitHub Actions**.
+3. That's it! GitHub will automatically run the build and publish your site at:
+   `https://jayendrasinh025.github.io/amrutkalp-website/`
 
-1. Create a new empty repository on [GitHub](https://github.com/new) named `amrutkalp-website`.
-2. In your terminal, run:
-
-```bash
-git remote add origin https://github.com/YOUR_USERNAME/amrutkalp-website.git
-git branch -M main
-git push -u origin main
-```
+### Method 2: Deploy from `/docs` folder
+1. In your GitHub repository, go to **Settings** > **Pages**.
+2. Under **Build and deployment** > **Source**, choose **Deploy from a branch**.
+3. Select branch **`main`** and folder **`/docs`**, then click **Save**.
+4. Your website will be live in ~1 minute without needing any build tools!
 
 ---
 
