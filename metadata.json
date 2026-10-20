@@ -1,0 +1,8 @@
+{
+  "name": "AMRUTKALP™ Ayurvedic Herbals",
+  "description": "Pure Himalayan Shilajit and authentic Ayurvedic formulations with verified sourcing, purity guarantee, and transparent ingredients.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
